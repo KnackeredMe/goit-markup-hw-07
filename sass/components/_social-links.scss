@@ -22,16 +22,14 @@
 .social__link--transparent:hover,
 .social__link--transparent:focus {
   background-color: var(--accent-color);
+  .social__icon--grey {
+    fill: var(--white-color);
+  }
 }
 
 .social__link--grey:hover,
 .social__link--grey:focus {
   background-color: var(--accent-color);
-}
-
-.social__link--transparent:hover .social__icon--grey,
-.social__link--transparent:focus .social__icon--grey {
-  fill: var(--white-color);
 }
 
 .social {
